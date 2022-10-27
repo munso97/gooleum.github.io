@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Gooleum</title>
+
+  <!-- font-awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+
+  <!-- PagePiling CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.css" />
+
+  <!-- magnific-popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="../css/main.css" />
+
+</head>
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top navbar-right" id="header">
+    <div class="container-fluid">
+
+      <h1 class="logo">Gooleum</h1>
+
+      <button type='button' class='nav-icon'>
+        <img src="../images/header/navbar.png" alt="navbar image">
+      </button>
+
+      <ul class="nav">
+        <li data-menuanchor="page1"><a href="#home">HOME</a></li>
+        <li data-menuanchor="page2"><a href="#about">ABOUT ME</a></li>
+        <li data-menuanchor="page3"><a href="#skills">SKILLS</a></li>
+        <li data-menuanchor="page3"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="page3"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="page3"><a href="#footer">FOOTER</a></li>
+        <li>
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href="https://github.com/munso97" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://www.instagram.com/s_mo._.on/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+
+      <div class="dark_mode">
+        <img src="../images/header/moon.png" alt="moon image">
+      </div>
+
+    </div>
+  </div>
+
+  <div id="pagepiling">
+
+    <!-- ************************ Home ************************ -->
+    <div id="home" class="section videobg">
+      <div class="container-fluid">
+
+        <div class="title-small">
+          <p>HOME</p>
+        </div>
+
+        <div class="home-textbox">
+          <h2>Hello I'M So Jeong</h2>
+          <h3>A <span class="type-it"></span></h3>
+          <p>코드가 구현될 때 늘 짜릿함을 느끼는 문소정 입니다.<br>
+            코딩의 즐거움을 알기에 멈추지 않고 끊임없이 공부하며 발전해가겠습니다!</p>
+          <p class="sns">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/munso97"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </p>
+        </div>
+
+        <div class="video-container">
+          <video id="video" src="../images/video/cloud.mp4" autoplay loop muted></video>
+          <!-- <div class="background"></div> -->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ************************ About ************************ -->
+    <div id="about" class="section pp-scrollable">
+
+      <div class="title-small left">
+        <p>ABOUT ME</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="about_profile col-md-12 col-lg-6"></div>
+
+          <div class="about-text col-md-12 col-lg-6">
+            <h2 class="title">About Me</h2>
+            <p>저는 우연한 계기로 웹디자인 기획을 진행하게 되면서 UI의 개념을 접하게 되었습니다. 배워보고 싶다는 마음을 시작으로 디자인부터 코딩까지 차근차근 단계를 밟아 오며,</p>
+            <p>무너지는 경우가 있었으나, 저의 노력을 배신하지 않고 구현되는 브라우저를 보며 짜릿한 희열을 경험하였습니다. 그 후 성장하고자 하는 욕심은 계속해서 늘어나고 있습니다.
+              <span>"노력은 배신하지 않는다"</span>를 모토로 더욱 발전해가는 "웹퍼블리셔"가 되겠습니다.</p>
+
+            <a href="../images/portfolio/resume_moonsojeong.pdf" class="btn" target="_blank">
+              <span class="first_btn">Download CV</span>
+              <span class="second_btn">Download</span>
+            </a>
+
+            <a href="#contact" class="btn">
+              <span class="first_btn">Send Message</span>
+              <span class="second_btn">Send</span>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="about_info">
+          <ul class="row">
+            <li class="col-xs-6 col-sm-3">
+              <img src="../images/about/chat.png" alt="chat icon">
+              <span>#Sociability</span>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+              <img src="../images/about/chart.png" alt="chart icon">
+              <span>#Endeavoring</span>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+              <img src="../images/about/heart.png" alt="heart icon">
+              <span>#Passionate</span>
+            </li>
+            <li class="col-xs-6 col-sm-3">
+              <img src="../images/about/light.png" alt="light icon">
+              <span>#Creative</span>
+            </li>
+          </ul>
+        </div>
+
+        <img src="../images/about/arrow.svg" alt="Put your mouse up images" id="arrow_img">
+
+      </div>
+    </div>
+
+    <!-- ************************ Skills ************************ -->
+    <div id="skills" class="section pp-scrollable">
+
+      <div class="title-small">
+        <p>SKILLS</p>
+      </div>
+
+      <div class="container">
+
+
+        <h2 class="title">Skills</h2>
+
+        <div class="row skills">
+
+          <div class="skill-box col-md-6 col-sm-12">
+            <img src="../images/skills/design.png" alt="design icon">
+
+            <div class="skill-box_text">
+              <h3>WEB & APP DESIGN</h3>
+              <p>
+                목적과 컨셉을 그리드 시스템을 바탕으로
+                웹사이트의 목업과 시안을 제작할 수 있습니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-box col-md-6 col-sm-12">
+            <img src="../images/skills/coding.png" alt="design icon">
+
+            <div class="skill-box_text">
+              <h3>WEB PUBLISHING</h3>
+              <p>
+                레이아웃에 맞는 배치 및 활용하고 웹표준과
+                웹접근성을 준수한 구현이 가능합니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-box col-md-6 col-sm-12">
+            <img src="../images/skills/sass.png" alt="design icon">
+
+            <div class="skill-box_text">
+              <h3>SASS</h3>
+              <p>
+                웹접근성과 웹표준을 바탕으로 Sass의 개념을 이해하고 퍼블리싱 할 수 있습니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-box col-md-6 col-sm-12">
+            <img src="../images/skills/responsive.png" alt="design icon">
+
+            <div class="skill-box_text">
+              <h3>RESPONSIVE WEB</h3>
+              <p>
+                최신 트렌드의 디자인 접목과 함께 다양한 기기에 반응형 웹사이트 제작이 가능합니다.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <ul class="col-md-12 col-lg-6 skills_bars1">
+            <li class="progress-wrap">
+              <span class="progress_name">HTML5</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="90">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+            <li class="progress-wrap">
+              <span class="progress_name">CSS3</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="92">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+            <li class="progress-wrap">
+              <span class="progress_name">JAVASCRIPT</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="79">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+            <li class="progress-wrap">
+              <span class="progress_name">JQUERY</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="75">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="col-md-12 col-lg-6 skills_bars2">
+            <li class="progress-wrap">
+              <span class="progress_name">VUE</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="70">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+            <li class="progress-wrap">
+              <span class="progress_name">PHOTOSHOP</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="75">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+            <li class="progress-wrap">
+              <span class="progress_name">ILLUSTRATOR</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="86">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+            <li class="progress-wrap">
+              <span class="progress_name">XD</span>
+              <div class="progress">
+                <span class="progress_number" data-rate="90">0%</span>
+                <div class="progress-bar"></div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ************************ Portfolio ************************ -->
+    <div id="portfolio" class="section pp-scrollable">
+
+      <div class="title-small left">
+        <p>PORTFOLIO</p>
+      </div>
+
+      <div class="container">
+
+        <h2 class="title">Portfolio</h2>
+
+        <div class="row main_project mooneo">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="../images/portfolio/mooneo_main.png" alt="mooneo App image">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h2>문어</h2>
+            <p>문어탈을 쓰고 있는 일러스트캐릭터를 제작하고 그에 맞는 컨셉을 이용하여 저를 소개하는 자기소개 앱을 Vue로 제작하였습니다.</p>
+            <div class="site_btn">
+              <a href="../images/portfolio/mooneo.pdf" target="_blank">+ 계획서 보기</a>
+              <a href="https://xd.adobe.com/view/94bee953-930f-40ec-9a81-d26e64bc76a1-c1ed/screen/884a8486-3388-44f4-b039-58d6bd8158ec/"
+                target="_blank">+ 시안 디자인 보기</a>
+              <a href="https://mooneo.netlify.app/" target="_blank">+ 사이트 바로가기</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row main_project jiin">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 main_project_img">
+            <img src="../images/portfolio/jiin_main.png" alt="Jiin App image">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 main_project_text">
+            <h2>JIIN</h2>
+            <p>"IT 분야에 지인이 있다면 좋겠다"라는 생각에서 아이디어를 얻어 익명의 지인과 정보를 공유하고 소통할 수 있는 채팅 앱을 제작해 보았습니다. 해당 코딩은 카카오톡 클론을 통해
+              제작하였습니다.
+            </p>
+            <div class="site_btn">
+              <a href="https://jiin.netlify.app/" target="_blank">+ 사이트 바로가기</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="categories">
+          <button class="category__btn selected" id="all">All</button>
+          <button class="category__btn" id="web">Web</button>
+          <button class="category__btn" id="app">App</button>
+          <button class="category__btn" id="vue">Vue</button>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+
+            <div class="grid" id="gallery">
+
+              <div class="grid-item project web">
+                <img src="../images/portfolio/aliacorns-prev.png" alt="web photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Alia Corns</h3>
+                  <button>
+                    <a href="#alia_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project web">
+                <img src="../images/portfolio/waxom_prev.png" alt="web photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Waxom</h3>
+                  <button>
+                    <a href="#waxom_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project web">
+                <img src="../images/portfolio/expire_prve.png" alt="web photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Expire</h3>
+                  <button>
+                    <a href="#expire_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project app">
+                <img src="../images/portfolio/Eshop_prev.png" alt="app photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Eshop</h3>
+                  <button>
+                    <a href="#eshop_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project app vue">
+                <img src="../images/portfolio/mooneo_prev.png" alt="app photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>문어</h3>
+                  <button>
+                    <a href="#mooneo_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project web">
+                <img src="../images/portfolio/webstone-prev.png" alt="web photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Webstone</h3>
+                  <button>
+                    <a href="#webstone_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project app">
+                <img src="../images/portfolio/jiin_prev.png" alt="app photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Jiin</h3>
+                  <button>
+                    <a href="#jiin_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project web">
+                <img src="../images/portfolio/retina-prev.png" alt="web photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>Retina</h3>
+                  <button>
+                    <a href="#retina_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project app vue">
+                <img src="../images/portfolio/myapp-prev.png" alt="app photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>MyApp</h3>
+                  <button>
+                    <a href="#myapp_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project web">
+                <img src="../images/portfolio/samsung-prev.png" alt="web photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>JBL</h3>
+                  <button>
+                    <a href="#jbl_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid-item project app vue">
+                <img src="../images/portfolio/megabox-prev.png" alt="app photo" class="project__img">
+                <div class="project__description">
+                  <div class="project_bg"></div>
+                  <h3>MEGABOX</h3>
+                  <button>
+                    <a href="#mega_popup"><i class="fa fa-link"></i></a>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ************ Alia ************ -->
+      <div id="alia_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">Alia Corns</h2>
+
+        <p>
+          반응형웹으로 포토샵을 이용하여 목업과 시안작업 진행하였으며,
+          HTML5, CSS3, JavaScript와 플러그인을 <br /> 이용하여 제작된 사이트입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> WEB
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> Photoshop
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso1.dothome.co.kr/rwd1" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/aliacorns.png" alt="web page image" />
+      </div>
+
+      <!-- ************ waxom ************ -->
+      <div id="waxom_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">Waxom</h2>
+
+        <p>
+          반응형웹으로 포토샵 시안을 기준으로 HTML5, CSS3, Javascript와
+          Swiper를 이용하여 제작된 사이트입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> WEB
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> Photoshop
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso1.dothome.co.kr/waxom/" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/waxom.png" alt="web page image" />
+      </div>
+
+      <!-- ************ Expire ************ -->
+      <div id="expire_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">Expire</h2>
+
+        <p>
+          반응형웹으로 포토샵 시안을 기준으로 HTML5, CSS3,
+          Javascript와 Swiper를 이용하여 제작된 사이트입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> WEB
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> Photoshop
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso1.dothome.co.kr/expire" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/expire.png" alt="web page image" />
+      </div>
+
+      <!-- ************ Eshop ************ -->
+      <div id="eshop_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">Eshop</h2>
+
+        <p>
+          모바일 앱을 기준으로 XD 시안을 참고하여 HTML5, CSS3, Javascript와 플러그인을 이용하여 제작된 쇼핑몰 앱입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> APP
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> XD
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso1.dothome.co.kr/eshop/" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/Eshop.png" alt="app page image" />
+      </div>
+
+      <!-- ************ mooneo ************ -->
+      <div id="mooneo_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">문어</h2>
+
+        <p>
+          모바일 앱을 기준으로 XD를 이용하여
+          목업과 시안작업 진행하였으며, Vue를 기반으로 제작된 자기소개 어플입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> APP, Vue
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> XD
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript, JQuery
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="https://mooneo.netlify.app/" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/mooneo.png" alt="app page image" />
+      </div>
+
+      <!-- ************ Webstone ************ -->
+      <div id="webstone_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">WEB STONE</h2>
+
+        <p>
+          반응형웹으로 포토샵을 이용하여 목업과 시안작업 진행하였으며,
+          HTML5, CSS3, Javascript와 Bootstrap를 기반으로 제작된 사이트입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> WEB
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> Photoshop
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso1.dothome.co.kr/rwd2" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/webstone.png" alt="web page image" />
+      </div>
+
+      <!-- ************ jiin ************ -->
+      <div id="jiin_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">JIIN</h2>
+
+        <p>
+          카카오톡 클론코딩으로 HTML5, CSS3을 기반하여
+          익명의 지인을 만들어 정보를 공유할 수 있는 채팅 앱입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> APP
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="https://jiin.netlify.app" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/jiin.png" alt="app page image" />
+      </div>
+
+      <!-- ************ Retina ************ -->
+      <div id="retina_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">Retina</h2>
+
+        <p>
+          1200그리드를 기준으로 포토샵을 이용하여 목업과 시안작업 진행하였으며,
+          HTML5, CSS3, JQuery를 기반으로 제작된 사이트입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> WEB
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> Photoshop
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JQuery
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso45.dothome.co.kr/Project5/" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/retina.png" alt="web page image" />
+      </div>
+
+      <!-- ************ MyApp ************ -->
+      <div id="myapp_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">MyApp</h2>
+
+        <p>
+          모바일 앱을 XD로 시안 디자인을 작업 후 HTML5, CSS3, Javascript, Vue를 기반으로 제작된 자기소개 어플입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> APP, Vue
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> XD
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="https://myapp-project.netlify.app" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/myapp.png" alt="app page image" />
+      </div>
+
+      <!-- ************ JBL ************ -->
+      <div id="jbl_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">JBL</h2>
+
+        <p>
+          1200그리드를 기준으로 포토샵을 이용하여 목업과 시안작업 진행하였으며,
+          HTML5, CSS3, Javascript를 기반으로 제작된 사이트입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> WEB
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> Photoshop
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JavaScript
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="http://gdso45.dothome.co.kr/Project4/html/main.html" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/samsung.png" alt="app page image" />
+      </div>
+
+      <!-- ************ MyApp ************ -->
+      <div id="mega_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">MyApp</h2>
+
+        <p>
+          모바일 XD 시안 디자인을 기준으로 HTML5, CSS3, JQuery, Vue를 기반으로 제작된 자기소개 어플입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> APP, Vue
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> XD
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JQuery
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="https://mobilemegabox.netlify.app" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/megabox.jpg" alt="app page image" />
+      </div>
+
+      <!-- ************ Mega ************ -->
+      <div id="mega_popup" class="white-popup mfp-hide">
+        <h2 class="popup_title">MEGABOX</h2>
+
+        <p>
+          모바일 앱 기준으로 목업과 시안 디자인을 XD를 통해 진행하였으며, HTML5, CSS3, JQuery를 Vue를 기반으로 제작된 어플입니다.
+        </p>
+
+        <ul>
+          <li>
+            <strong>category :</strong> <br /> APP, Vue
+          </li>
+          <li>
+            <strong>제작 프로그램 :</strong> <br /> XD
+          </li>
+          <li>
+            <strong>제작 언어 :</strong> <br /> HTML5, CSS3, JQuery
+          </li>
+        </ul>
+
+        <p class="popup_link-btn">
+          <a href="https://mobilemegabox.netlify.app" id="input_link" class="btn" target="_blank">
+            <i class="fa fa-link"></i>
+          </a>
+        </p>
+
+        <img src="../images/portfolio/megabox.jpg" alt="app page image" />
+      </div>
+
+    </div>
+
+    <!-- ************************ Contact ************************ -->
+    <div id="contact" class="section pp-scrollable">
+
+      <div class="title-small left">
+        <p>CONTACT</p>
+      </div>
+
+      <div class="container">
+
+        <h2 class="title">Contact</h2>
+
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5012.716668680029!2d126.83523798984919!3d37.31763143219325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b6f1b4de62e49%3A0x5153c99c56766ccf!2z65287J247Lu07ZOo7YSw7JWE7Yq47ZWZ7JuQ!5e0!3m2!1sko!2skr!4v1662347105505!5m2!1sko!2skr"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="row">
+          <div class="contact_text col-md-6">
+            <h3>Let’s Get Work With Me</h3>
+            <p>
+              저의 열정을 함께 나눌 수 있는 회사, 팀을 기다리고 있습니다!<br />
+              궁금하신 점이 있으시다면 언제든지 연락주세요.
+            </p>
+            <ul>
+              <li><strong>Phone :</strong> 010 - 9451 - 9309 </li>
+              <li><strong>Email :</strong> gdso4@naver.com</li>
+              <li><strong>Address :</strong> 경기도 안산</li>
+              <li><strong>App :</strong> <a href="https://mooneo.netlify.app/"
+                  target="_blank">https://mooneo.netlify.app/</a></li>
+            </ul>
+          </div>
+
+          <div class="contact_form col-md-6">
+            <h3>How can I help you ?</h3>
+            <form
+              action="https://script.google.com/macros/s/AKfycbzA3IwIfV4Kj1rekywcaZDG1M9gqxDOe6Wxt5PPz7raU_xAtHcgxIaa3PHxrNoTN4jiag/exec"
+              method="post" target="frAttachFiles" id="myform">
+
+              <label for="name" class="screen-hidden">Name</label>
+              <input type="text" name="name" class="contact_form-name" id="name" placeholder="Name" required />
+              <label for="email" class="screen-hidden">Email</label>
+              <input type="email" name="email" class="contact_form-email" id="email" placeholder="Email" required />
+              <label for="message" class="screen-hidden">Message</label>
+              <textarea name="message" name="message" id="message" cols="30" rows="10" placeholder="Message"
+                required></textarea>
+
+              <button type="submit" class="btn" id="submit">
+                <span class="first_btn">Send Message</span>
+                <span class="second_btn">Send</span>
+              </button>
+              <p id="log"></p>
+            </form>
+
+          </div>
+        </div>
+        <iframe name="frAttachFiles" style="display:none"></iframe>
+
+      </div>
+    </div>
+
+    <!-- ************************ Footer ************************ -->
+    <div id="footer" class="section videobg">
+      <div class="container-fluid">
+
+        <div class="title-small left">
+          <p>FOOTER</p>
+        </div>
+
+        <div class="footer_text">
+          <h1 class="logo">Gooleum</h1>
+          <p class="sns">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-instagram"></i>
+          </p>
+          <p class="copyright">Copyright&copy;2022 So Jeong All rights reserved.</p>
+        </div>
+
+        <div class="video-container">
+          <video id="video_footer" src="../images/video/cloud.mp4" autoplay loop muted></video>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  <!-- PagePiling JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+
+  <!-- typeIt js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+
+  <!-- magnific-popup JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+  <!-- isotope JS -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <!-- ScrollMagic JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+
+  <!-- My JS -->
+  <script src="../js/main.js" defer></script>
+
+</body>
+
+</html>

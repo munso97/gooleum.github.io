@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* Web Font Settings 
+  1. font-family: 'IBM Plex Sans KR', sans-serif;
+  2. font-family: 'Poppins', sans-serif;
+Thin 100 / ExtraLight 200 / Light 300 / Regular 400 / Medium 500 / SemiBold 600 
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+ol,
+dl,
+table,
+form,
+address,
+blockquote,
+p {
+  font-size: 1.4rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}s
+
+table,
+tr,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+input,
+label {
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Help Class Setting */
+/* ir(Image Replace) - 이미지 대체(치환) 기법 */
+.ir {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: no-repeat 0 0;
+}
+
+/* 화면 감추기 클래스 */
+.screen-hidden {
+  width: 0px;
+  height: 0px;
+  font-size: 1px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+/* 플롯 해제 클래스 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Bootstrap Reset */
+.container,
+.container-fluid{
+  padding: 0;
+}
+.row, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  margin: 0;
+  padding: 0;
+}
+.navbar-right {
+  margin: 0;
+}
+
+form label:first-child {
+  display: none;
+}
