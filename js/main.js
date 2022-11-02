@@ -27,7 +27,7 @@ body.addEventListener("click", () => {
 
 // typing
 $(".type-it").typeIt({
-  strings: ["UI Designer.", " Web Designer."],
+  strings: ["Web Publisher", " Web Designer."],
   loop: true,
   breakLines: false,
   speed: 250,
