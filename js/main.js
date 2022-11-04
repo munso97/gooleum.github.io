@@ -10,6 +10,14 @@ $(document).ready(function () {
     sectionsColor: ["white", "white", "white", "white", "white", "white"],
     loopTop: true,
     loopBottom: true,
+
+    scrollBehavior() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve({ x: 0, y: 0 });
+        });
+      });
+    },
   });
 });
 
