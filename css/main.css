@@ -339,6 +339,7 @@ video {
 }
 
 .about_info {
+	position: relative;
 	text-align: center;
 	margin-top: 74px;
 }
@@ -360,8 +361,8 @@ video {
 #arrow_img {
 	width: 200px;
 	position: absolute;
-	left: 8%;
-	bottom: 10%;
+	left: -20px;
+	top: 40%;
 }
 
 /* ***************** Skills ***************** */
